@@ -13,3 +13,5 @@ resources:
   - node-exporter/argocd/node-exporter.yaml
   - prometheus/argocd/prometheus.yaml
   - promtail/argocd/promtail.yaml
+  - goldilocks/argocd/goldilocks.yaml
+  - goldilocks  # Includes Goldilocks Dashboard Ingress
