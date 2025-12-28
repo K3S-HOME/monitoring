@@ -3,8 +3,6 @@ kind: Kustomization
 
 resources:
   - application.yaml
-
-  # 각 앱의 ArgoCD Application 중앙 관리
   - alertmanager/argocd.yaml
   - grafana/argocd.yaml
   - kube-state-metrics/argocd.yaml
