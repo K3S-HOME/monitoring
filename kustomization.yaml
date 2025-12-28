@@ -3,11 +3,11 @@ kind: Kustomization
 
 resources:
   - application.yaml
-  - alertmanager
-  - grafana
-  - kube-state-metrics
-  - loki
-  - node-exporter
-  - prometheus
-  - promtail
-  - goldilocks
+  - alertmanager/argocd.yaml
+  - grafana/argocd.yaml
+  - kube-state-metrics/argocd.yaml
+  - loki/argocd.yaml
+  - node-exporter/argocd.yaml
+  - prometheus/argocd.yaml
+  - promtail/argocd.yaml
+  - goldilocks/argocd.yaml
