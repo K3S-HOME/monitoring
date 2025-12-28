@@ -46,11 +46,6 @@ controller:
   # Set to false to only monitor namespaces with the label: goldilocks.fairwinds.com/enabled=true
   enableCostRecommendations: true
 
-  # VPA updateMode: Off = recommendations only, no auto-updates
-  # This prevents conflicts with ArgoCD's declarative state
-  flags:
-    vpa-update-mode: "Off"
-
 # VPA configuration (should already be installed)
 vpa:
   # Set to false since we're installing VPA separately
