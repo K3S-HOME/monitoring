@@ -72,9 +72,14 @@ dashboards:
       gnetId: 15760
       revision: 28
       datasource: Prometheus
+    # Kubernetes Namespaces
+    kubernetes-views-namespaces:
+      gnetId: 15758
+      revision: 35
+      datasource: Prometheus
     # Kubernetes Pods
     kubernetes-views-pods:
-      gnetId: 15760
+      gnetId: 15761
       revision: 28
       datasource: Prometheus
     # ArgoCD
