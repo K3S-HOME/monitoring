@@ -12,4 +12,3 @@ resources:
   - promtail/argocd.yaml
   - goldilocks/argocd.yaml
   - trivy/argocd.yaml
-  - helm-dashboard/argocd.yaml
