@@ -20,8 +20,6 @@ dashboard:
 ingress:
   enabled: true
   className: traefik
-  annotations:
-    traefik.ingress.kubernetes.io/router.middlewares: authelia-authelia-auth@kubernetescrd
   hosts:
     - host: helm0213.kro.kr
       paths:
