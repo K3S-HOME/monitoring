@@ -12,3 +12,4 @@ resources:
   - promtail/argocd.yaml
   - goldilocks/argocd.yaml
   - trivy/argocd.yaml
+  - uptime-kuma/argocd.yaml
